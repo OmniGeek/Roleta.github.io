@@ -1,0 +1,11 @@
+- var count = 6
+
+.roulette
+  .spinner
+    - for (var i=0; i<count; i++)
+      .triangle
+        //span.text=String.fromCharCode(65+i)
+        span.text=i+1
+  .button.button-spin(onclick='spin()')
+    span SPIN
+h1='Roleta ni OLLETA \nSpinning \nRoulette \nWheel Of \nStress'
